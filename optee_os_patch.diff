@@ -1,0 +1,26 @@
+diff --git a/core/arch/arm/plat-hikey/conf.mk b/core/arch/arm/plat-hikey/conf.mk
+index 068b091..3b782d8 100644
+--- a/core/arch/arm/plat-hikey/conf.mk
++++ b/core/arch/arm/plat-hikey/conf.mk
+@@ -53,7 +53,7 @@ endif
+ 
+ ifeq ($(PLATFORM_FLAVOR),hikey960)
+ CFG_CONSOLE_UART ?= 6
+-CFG_DRAM_SIZE_GB ?= 3
++CFG_DRAM_SIZE_GB ?= 4
+ endif
+ 
+ CFG_TZDRAM_START ?= 0x3F000000
+diff --git a/core/arch/arm/plat-hikey/platform_config.h b/core/arch/arm/plat-hikey/platform_config.h
+index 445b812..27b530b 100644
+--- a/core/arch/arm/plat-hikey/platform_config.h
++++ b/core/arch/arm/plat-hikey/platform_config.h
+@@ -121,7 +121,7 @@
+ #if (CFG_DRAM_SIZE_GB == 3)
+ #define DRAM1_SIZE_NSEC		0x80000000
+ #elif (CFG_DRAM_SIZE_GB == 4)
+-#define DRAM1_SIZE_NSEC		0xC0000000
++#define DRAM1_SIZE_NSEC		0xBFE00000
+ #else
+ #error Unknown DRAM size
+ #endif
