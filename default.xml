@@ -55,8 +55,8 @@
   <project name="device/linaro/bootloader/OpenPlatformPkg" revision="7cb8f3dc8dbbeebb3cc5cde8c47821f9a463bd99" upstream="master"/>
   <project name="device/linaro/bootloader/arm-trusted-firmware" revision="b23f5fb1ac2033077c7204f604b2c74649b0e9a3" upstream="master"/>
   <project name="device/linaro/bootloader/edk2" revision="08244e33149eacfbeee382aa02a17940fc5abfce" upstream="master"/>
-  <project groups="device,hikey,pdk" name="device/linaro/hikey" revision="hikey960-optee"/>
-  <project clone-depth="1" groups="device,hikey,pdk" name="device/linaro/hikey-kernel" revision="hikey960-optee" />
+  <project groups="device,hikey,pdk" name="device/linaro/hikey" revision="d4b00a218c2eae942cc831a4c3e02805ae8fc529" upstream="master"/>
+  <project clone-depth="1" groups="device,hikey,pdk" name="device/linaro/hikey-kernel" revision="f9a8ca624e83d96ab15926f8b0cce7d48e872fd6" upstream="master"/>
   <project groups="device,poplar,pdk" name="device/linaro/poplar" revision="741e61d94c0ffa06f2d971aed5b662607f72d0c9" upstream="master"/>
   <project clone-depth="1" groups="device,poplar,pdk" name="device/linaro/poplar-kernel" revision="6412647c7ff0d2d412281082a574a8ebb0d8a2fa" upstream="master"/>
   <project groups="pdk" name="device/sample" revision="c66570f1f652853fa51e9bb6618f2386de13e0a5" upstream="master"/>
